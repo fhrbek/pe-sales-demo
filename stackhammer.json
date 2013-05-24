@@ -7,6 +7,9 @@
     "type": "C1_MEDIUM",
     "deployState": "RUNNING",
     "image": "ami-14aa2524",
+    "publicKeys": [
+      "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmgrQ+xQoVFTWao6j5uECmdKCUS13mGM3GERlmG4oZbjXHXqftc5UYIC+1Nl32IZw3EzdWfbejlf1ym2NPCcAl2390xHe67u3nHIUgtdvROXmkIjgBP3UYw9ckjLGqiKHFSzuX8AxkH34AXCaPfUuu2eJifJv1//dI00Yv3RJFa9v6MV5SOUh6HsZ0h0GSXCZ0BP5zBfFUPx8sSTlR8OGuo99j7FtiI7ETtaUucsgDfhcMCCoGw+l0LCSAMUScCqgkhc/8ZgCw4QnY08ZGYMk6m3uffLapVWGdjBjI/R/mJq9M5swQef2vCUR8B/T3df+ymoibHetDmdUljmC1ecsz"
+    ],
     "name": "master"
   },
   "environments": [
@@ -21,6 +24,9 @@
           "type": "M1_SMALL",
           "deployState": "RUNNING",
           "image": "ami-14aa2524",
+          "publicKeys": [
+            "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmgrQ+xQoVFTWao6j5uECmdKCUS13mGM3GERlmG4oZbjXHXqftc5UYIC+1Nl32IZw3EzdWfbejlf1ym2NPCcAl2390xHe67u3nHIUgtdvROXmkIjgBP3UYw9ckjLGqiKHFSzuX8AxkH34AXCaPfUuu2eJifJv1//dI00Yv3RJFa9v6MV5SOUh6HsZ0h0GSXCZ0BP5zBfFUPx8sSTlR8OGuo99j7FtiI7ETtaUucsgDfhcMCCoGw+l0LCSAMUScCqgkhc/8ZgCw4QnY08ZGYMk6m3uffLapVWGdjBjI/R/mJq9M5swQef2vCUR8B/T3df+ymoibHetDmdUljmC1ecsz"
+          ],
           "name": "centos63001"
         },
         {
@@ -28,6 +34,9 @@
           "type": "M1_SMALL",
           "deployState": "RUNNING",
           "image": "ami-14aa2524",
+          "publicKeys": [
+            "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmgrQ+xQoVFTWao6j5uECmdKCUS13mGM3GERlmG4oZbjXHXqftc5UYIC+1Nl32IZw3EzdWfbejlf1ym2NPCcAl2390xHe67u3nHIUgtdvROXmkIjgBP3UYw9ckjLGqiKHFSzuX8AxkH34AXCaPfUuu2eJifJv1//dI00Yv3RJFa9v6MV5SOUh6HsZ0h0GSXCZ0BP5zBfFUPx8sSTlR8OGuo99j7FtiI7ETtaUucsgDfhcMCCoGw+l0LCSAMUScCqgkhc/8ZgCw4QnY08ZGYMk6m3uffLapVWGdjBjI/R/mJq9M5swQef2vCUR8B/T3df+ymoibHetDmdUljmC1ecsz"
+          ],
           "name": "centos63002"
         },
         {
@@ -35,6 +44,9 @@
           "type": "M1_SMALL",
           "deployState": "RUNNING",
           "image": "ami-14aa2524",
+          "publicKeys": [
+            "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmgrQ+xQoVFTWao6j5uECmdKCUS13mGM3GERlmG4oZbjXHXqftc5UYIC+1Nl32IZw3EzdWfbejlf1ym2NPCcAl2390xHe67u3nHIUgtdvROXmkIjgBP3UYw9ckjLGqiKHFSzuX8AxkH34AXCaPfUuu2eJifJv1//dI00Yv3RJFa9v6MV5SOUh6HsZ0h0GSXCZ0BP5zBfFUPx8sSTlR8OGuo99j7FtiI7ETtaUucsgDfhcMCCoGw+l0LCSAMUScCqgkhc/8ZgCw4QnY08ZGYMk6m3uffLapVWGdjBjI/R/mJq9M5swQef2vCUR8B/T3df+ymoibHetDmdUljmC1ecsz"
+          ],
           "name": "centos63003"
         },
         {
@@ -42,6 +54,9 @@
           "type": "M1_SMALL",
           "deployState": "RUNNING",
           "image": "ami-14aa2524",
+          "publicKeys": [
+            "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmgrQ+xQoVFTWao6j5uECmdKCUS13mGM3GERlmG4oZbjXHXqftc5UYIC+1Nl32IZw3EzdWfbejlf1ym2NPCcAl2390xHe67u3nHIUgtdvROXmkIjgBP3UYw9ckjLGqiKHFSzuX8AxkH34AXCaPfUuu2eJifJv1//dI00Yv3RJFa9v6MV5SOUh6HsZ0h0GSXCZ0BP5zBfFUPx8sSTlR8OGuo99j7FtiI7ETtaUucsgDfhcMCCoGw+l0LCSAMUScCqgkhc/8ZgCw4QnY08ZGYMk6m3uffLapVWGdjBjI/R/mJq9M5swQef2vCUR8B/T3df+ymoibHetDmdUljmC1ecsz"
+          ],
           "name": "centos63004"
         },
         {
@@ -49,6 +64,9 @@
           "type": "M1_SMALL",
           "deployState": "RUNNING",
           "image": "ami-14aa2524",
+          "publicKeys": [
+            "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmgrQ+xQoVFTWao6j5uECmdKCUS13mGM3GERlmG4oZbjXHXqftc5UYIC+1Nl32IZw3EzdWfbejlf1ym2NPCcAl2390xHe67u3nHIUgtdvROXmkIjgBP3UYw9ckjLGqiKHFSzuX8AxkH34AXCaPfUuu2eJifJv1//dI00Yv3RJFa9v6MV5SOUh6HsZ0h0GSXCZ0BP5zBfFUPx8sSTlR8OGuo99j7FtiI7ETtaUucsgDfhcMCCoGw+l0LCSAMUScCqgkhc/8ZgCw4QnY08ZGYMk6m3uffLapVWGdjBjI/R/mJq9M5swQef2vCUR8B/T3df+ymoibHetDmdUljmC1ecsz"
+          ],
           "name": "centos63005"
         },
         {
@@ -56,6 +74,9 @@
           "type": "M1_SMALL",
           "deployState": "RUNNING",
           "image": "ami-14aa2524",
+          "publicKeys": [
+            "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmgrQ+xQoVFTWao6j5uECmdKCUS13mGM3GERlmG4oZbjXHXqftc5UYIC+1Nl32IZw3EzdWfbejlf1ym2NPCcAl2390xHe67u3nHIUgtdvROXmkIjgBP3UYw9ckjLGqiKHFSzuX8AxkH34AXCaPfUuu2eJifJv1//dI00Yv3RJFa9v6MV5SOUh6HsZ0h0GSXCZ0BP5zBfFUPx8sSTlR8OGuo99j7FtiI7ETtaUucsgDfhcMCCoGw+l0LCSAMUScCqgkhc/8ZgCw4QnY08ZGYMk6m3uffLapVWGdjBjI/R/mJq9M5swQef2vCUR8B/T3df+ymoibHetDmdUljmC1ecsz"
+          ],
           "name": "centos63006"
         },
         {
@@ -63,6 +84,9 @@
           "type": "M1_SMALL",
           "deployState": "RUNNING",
           "image": "ami-14aa2524",
+          "publicKeys": [
+            "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmgrQ+xQoVFTWao6j5uECmdKCUS13mGM3GERlmG4oZbjXHXqftc5UYIC+1Nl32IZw3EzdWfbejlf1ym2NPCcAl2390xHe67u3nHIUgtdvROXmkIjgBP3UYw9ckjLGqiKHFSzuX8AxkH34AXCaPfUuu2eJifJv1//dI00Yv3RJFa9v6MV5SOUh6HsZ0h0GSXCZ0BP5zBfFUPx8sSTlR8OGuo99j7FtiI7ETtaUucsgDfhcMCCoGw+l0LCSAMUScCqgkhc/8ZgCw4QnY08ZGYMk6m3uffLapVWGdjBjI/R/mJq9M5swQef2vCUR8B/T3df+ymoibHetDmdUljmC1ecsz"
+          ],
           "name": "centos63007"
         },
         {
@@ -70,6 +94,9 @@
           "type": "M1_SMALL",
           "deployState": "RUNNING",
           "image": "ami-14aa2524",
+          "publicKeys": [
+            "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmgrQ+xQoVFTWao6j5uECmdKCUS13mGM3GERlmG4oZbjXHXqftc5UYIC+1Nl32IZw3EzdWfbejlf1ym2NPCcAl2390xHe67u3nHIUgtdvROXmkIjgBP3UYw9ckjLGqiKHFSzuX8AxkH34AXCaPfUuu2eJifJv1//dI00Yv3RJFa9v6MV5SOUh6HsZ0h0GSXCZ0BP5zBfFUPx8sSTlR8OGuo99j7FtiI7ETtaUucsgDfhcMCCoGw+l0LCSAMUScCqgkhc/8ZgCw4QnY08ZGYMk6m3uffLapVWGdjBjI/R/mJq9M5swQef2vCUR8B/T3df+ymoibHetDmdUljmC1ecsz"
+          ],
           "name": "centos63008"
         },
         {
@@ -77,6 +104,9 @@
           "type": "M1_SMALL",
           "deployState": "RUNNING",
           "image": "ami-14aa2524",
+          "publicKeys": [
+            "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmgrQ+xQoVFTWao6j5uECmdKCUS13mGM3GERlmG4oZbjXHXqftc5UYIC+1Nl32IZw3EzdWfbejlf1ym2NPCcAl2390xHe67u3nHIUgtdvROXmkIjgBP3UYw9ckjLGqiKHFSzuX8AxkH34AXCaPfUuu2eJifJv1//dI00Yv3RJFa9v6MV5SOUh6HsZ0h0GSXCZ0BP5zBfFUPx8sSTlR8OGuo99j7FtiI7ETtaUucsgDfhcMCCoGw+l0LCSAMUScCqgkhc/8ZgCw4QnY08ZGYMk6m3uffLapVWGdjBjI/R/mJq9M5swQef2vCUR8B/T3df+ymoibHetDmdUljmC1ecsz"
+          ],
           "name": "centos63009"
         },
         {
@@ -84,6 +114,9 @@
           "type": "M1_SMALL",
           "deployState": "RUNNING",
           "image": "ami-14aa2524",
+          "publicKeys": [
+            "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmgrQ+xQoVFTWao6j5uECmdKCUS13mGM3GERlmG4oZbjXHXqftc5UYIC+1Nl32IZw3EzdWfbejlf1ym2NPCcAl2390xHe67u3nHIUgtdvROXmkIjgBP3UYw9ckjLGqiKHFSzuX8AxkH34AXCaPfUuu2eJifJv1//dI00Yv3RJFa9v6MV5SOUh6HsZ0h0GSXCZ0BP5zBfFUPx8sSTlR8OGuo99j7FtiI7ETtaUucsgDfhcMCCoGw+l0LCSAMUScCqgkhc/8ZgCw4QnY08ZGYMk6m3uffLapVWGdjBjI/R/mJq9M5swQef2vCUR8B/T3df+ymoibHetDmdUljmC1ecsz"
+          ],
           "name": "centos63010"
         }
       ],
