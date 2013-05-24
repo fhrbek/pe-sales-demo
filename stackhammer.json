@@ -3,7 +3,330 @@
   "accessKey": "Puppet Labs Demo",
   "puppetVersion": "PUPPET_ENTERPRISE28",
   "master": {
+    "consoleData": {
+      "classes": [
+        {
+          "node_class": {
+            "name": "agent",
+            "created_at": "2013-05-24T15:48:10Z",
+            "updated_at": "2013-05-24T15:48:10Z"
+          }
+        },
+        {
+          "node_class": {
+            "name": "pe_accounts",
+            "created_at": "2013-05-24T15:45:24Z",
+            "updated_at": "2013-05-24T15:45:24Z"
+          }
+        },
+        {
+          "node_class": {
+            "name": "pe_compliance",
+            "created_at": "2013-05-24T15:45:24Z",
+            "updated_at": "2013-05-24T15:45:24Z"
+          }
+        },
+        {
+          "node_class": {
+            "name": "pe_mcollective",
+            "created_at": "2013-05-24T15:45:24Z",
+            "updated_at": "2013-05-24T15:45:24Z"
+          }
+        },
+        {
+          "node_class": {
+            "name": "pe_mcollective::role::console",
+            "created_at": "2013-05-24T15:46:28Z",
+            "updated_at": "2013-05-24T15:46:28Z"
+          }
+        },
+        {
+          "node_class": {
+            "name": "pe_mcollective::role::master",
+            "created_at": "2013-05-24T15:45:59Z",
+            "updated_at": "2013-05-24T15:45:59Z"
+          }
+        }
+      ],
+      "groups": [
+        {
+          "node_group": {
+            "name": "puppet_console",
+            "assigned_node_group_ids": [],
+            "assigned_node_class_ids": [
+              5
+            ],
+            "created_at": "2013-05-24T15:46:34Z",
+            "updated_at": "2013-05-24T15:46:34Z"
+          }
+        },
+        {
+          "node_group": {
+            "name": "puppet_master",
+            "assigned_node_group_ids": [],
+            "assigned_node_class_ids": [
+              4
+            ],
+            "created_at": "2013-05-24T15:46:05Z",
+            "updated_at": "2013-05-24T15:46:05Z"
+          }
+        },
+        {
+          "node_group": {
+            "name": "stackhammer.synchronized",
+            "assigned_node_group_ids": [],
+            "assigned_node_class_ids": [],
+            "created_at": "2013-05-24T15:48:03Z",
+            "updated_at": "2013-05-24T15:48:03Z"
+          }
+        }
+      ],
+      "nodes": [
+        {
+          "node": {
+            "name": "centos63003",
+            "assigned_node_group_ids": [],
+            "assigned_node_class_ids": [
+              6
+            ],
+            "created_at": "2013-05-24T15:47:57Z",
+            "updated_at": "2013-05-24T15:49:16Z"
+          }
+        },
+        {
+          "node": {
+            "name": "centos63002",
+            "assigned_node_group_ids": [],
+            "assigned_node_class_ids": [
+              6
+            ],
+            "created_at": "2013-05-24T15:48:07Z",
+            "updated_at": "2013-05-24T15:49:10Z"
+          }
+        },
+        {
+          "node": {
+            "name": "centos63004",
+            "assigned_node_group_ids": [],
+            "assigned_node_class_ids": [
+              6
+            ],
+            "created_at": "2013-05-24T15:48:08Z",
+            "updated_at": "2013-05-24T15:49:11Z"
+          }
+        },
+        {
+          "node": {
+            "name": "centos63006",
+            "assigned_node_group_ids": [],
+            "assigned_node_class_ids": [
+              6
+            ],
+            "created_at": "2013-05-24T15:48:08Z",
+            "updated_at": "2013-05-24T15:49:28Z"
+          }
+        },
+        {
+          "node": {
+            "name": "centos63009",
+            "assigned_node_group_ids": [],
+            "assigned_node_class_ids": [
+              6
+            ],
+            "created_at": "2013-05-24T15:48:09Z",
+            "updated_at": "2013-05-24T15:49:08Z"
+          }
+        },
+        {
+          "node": {
+            "name": "centos63010",
+            "assigned_node_group_ids": [],
+            "assigned_node_class_ids": [
+              6
+            ],
+            "created_at": "2013-05-24T15:48:09Z",
+            "updated_at": "2013-05-24T15:49:08Z"
+          }
+        },
+        {
+          "node": {
+            "name": "centos63005",
+            "assigned_node_group_ids": [],
+            "assigned_node_class_ids": [
+              6
+            ],
+            "created_at": "2013-05-24T15:47:56Z",
+            "updated_at": "2013-05-24T15:49:22Z"
+          }
+        },
+        {
+          "node": {
+            "name": "centos63007",
+            "assigned_node_group_ids": [],
+            "assigned_node_class_ids": [
+              6
+            ],
+            "created_at": "2013-05-24T15:48:08Z",
+            "updated_at": "2013-05-24T15:49:03Z"
+          }
+        },
+        {
+          "node": {
+            "name": "centos63008",
+            "assigned_node_group_ids": [],
+            "assigned_node_class_ids": [
+              6
+            ],
+            "created_at": "2013-05-24T15:48:09Z",
+            "updated_at": "2013-05-24T15:49:24Z"
+          }
+        },
+        {
+          "node": {
+            "name": "master",
+            "assigned_node_group_ids": [
+              2,
+              3
+            ],
+            "assigned_node_class_ids": [],
+            "created_at": "2013-05-24T15:46:17Z",
+            "updated_at": "2013-05-24T15:48:57Z"
+          }
+        },
+        {
+          "node": {
+            "name": "centos63001",
+            "assigned_node_group_ids": [],
+            "assigned_node_class_ids": [
+              6
+            ],
+            "created_at": "2013-05-24T15:48:03Z",
+            "updated_at": "2013-05-24T15:49:05Z"
+          }
+        }
+      ],
+      "groupContributions": [
+        {
+          "node_group_class_membership": {
+            "node_group_id": 3,
+            "node_class_id": 5,
+            "created_at": "2013-05-24T15:46:40Z",
+            "updated_at": "2013-05-24T15:46:40Z"
+          }
+        },
+        {
+          "node_group_class_membership": {
+            "node_group_id": 2,
+            "node_class_id": 4,
+            "created_at": "2013-05-24T15:46:11Z",
+            "updated_at": "2013-05-24T15:46:11Z"
+          }
+        }
+      ],
+      "groupMembers": [
+        {
+          "node_group_membership": {
+            "node_id": 1,
+            "node_group_id": 3,
+            "created_at": "2013-05-24T15:46:48Z",
+            "updated_at": "2013-05-24T15:46:48Z"
+          }
+        },
+        {
+          "node_group_membership": {
+            "node_id": 1,
+            "node_group_id": 2,
+            "created_at": "2013-05-24T15:46:22Z",
+            "updated_at": "2013-05-24T15:46:22Z"
+          }
+        }
+      ],
+      "nodeContributions": [
+        {
+          "node_class_membership": {
+            "node_id": 3,
+            "node_class_id": 6,
+            "created_at": "2013-05-24T15:48:16Z",
+            "updated_at": "2013-05-24T15:48:16Z"
+          }
+        },
+        {
+          "node_class_membership": {
+            "node_id": 5,
+            "node_class_id": 6,
+            "created_at": "2013-05-24T15:48:15Z",
+            "updated_at": "2013-05-24T15:48:15Z"
+          }
+        },
+        {
+          "node_class_membership": {
+            "node_id": 6,
+            "node_class_id": 6,
+            "created_at": "2013-05-24T15:48:16Z",
+            "updated_at": "2013-05-24T15:48:16Z"
+          }
+        },
+        {
+          "node_class_membership": {
+            "node_id": 7,
+            "node_class_id": 6,
+            "created_at": "2013-05-24T15:48:17Z",
+            "updated_at": "2013-05-24T15:48:17Z"
+          }
+        },
+        {
+          "node_class_membership": {
+            "node_id": 10,
+            "node_class_id": 6,
+            "created_at": "2013-05-24T15:48:18Z",
+            "updated_at": "2013-05-24T15:48:18Z"
+          }
+        },
+        {
+          "node_class_membership": {
+            "node_id": 11,
+            "node_class_id": 6,
+            "created_at": "2013-05-24T15:48:18Z",
+            "updated_at": "2013-05-24T15:48:18Z"
+          }
+        },
+        {
+          "node_class_membership": {
+            "node_id": 2,
+            "node_class_id": 6,
+            "created_at": "2013-05-24T15:48:17Z",
+            "updated_at": "2013-05-24T15:48:17Z"
+          }
+        },
+        {
+          "node_class_membership": {
+            "node_id": 8,
+            "node_class_id": 6,
+            "created_at": "2013-05-24T15:48:17Z",
+            "updated_at": "2013-05-24T15:48:17Z"
+          }
+        },
+        {
+          "node_class_membership": {
+            "node_id": 9,
+            "node_class_id": 6,
+            "created_at": "2013-05-24T15:48:18Z",
+            "updated_at": "2013-05-24T15:48:18Z"
+          }
+        },
+        {
+          "node_class_membership": {
+            "node_id": 4,
+            "node_class_id": 6,
+            "created_at": "2013-05-24T15:48:12Z",
+            "updated_at": "2013-05-24T15:48:12Z"
+          }
+        }
+      ],
+      "lastSync": "2013-05-24T16:03:24Z"
+    },
     "agentRunInterval": 10,
+    "role": "console_puppet_console_puppet_master",
     "type": "C1_MEDIUM",
     "deployState": "RUNNING",
     "image": "ami-14aa2524",
@@ -17,6 +340,9 @@
       "siteLocation": "manifests",
       "moduleLocations": [
         "modules"
+      ],
+      "syntheticRoles": [
+        "console_puppet_console_puppet_master"
       ],
       "nodes": [
         {

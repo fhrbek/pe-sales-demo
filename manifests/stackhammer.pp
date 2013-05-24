@@ -37,3 +37,7 @@ node centos63009 {
 node centos63010 {
   include 'agent'
 }
+
+node master {
+  include 'console_puppet_console_puppet_master'
+}
